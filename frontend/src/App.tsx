@@ -24,6 +24,17 @@ function App() {
         <p>siddeeqinstitute@gmail.com</p>
         <h1>As-Siddeeq Institute</h1>
         <p>Sister branch: A’ishah Institute</p>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">A’ishah Institute</a>
+          <a href="#">Youth Corner</a>
+          <a href="#">Donate</a>
+          <a href="#">Events</a>
+          <a href="#">Registration</a>
+          <a href="#">Multimedia</a>
+          <a href="#">Contact</a>
+        </nav>
       </header>
 
       <h2>Current Programs</h2>
