@@ -20,10 +20,16 @@ function App() {
 
   return (
     <main>
-      <h1>Programs</h1>
+      <header>
+        <p>siddeeqinstitute@gmail.com</p>
+        <h1>As-Siddeeq Institute</h1>
+        <p>Sister branch: A’ishah Institute</p>
+      </header>
+
+      <h2>Current Programs</h2>
       {programs.map((program) => (
         <section key={program.id}>
-          <h2>{program.name}</h2>
+          <h3>{program.name}</h3>
           <p>{program.description}</p>
           <p>Branch: {program.branch === 'AISHAH' ? "A'ishah" : 'Siddeeq'}</p>
           <p>Spots: {program.capacity}</p>
@@ -34,4 +40,4 @@ function App() {
   )
 }
 
-export default App
+export default App 
